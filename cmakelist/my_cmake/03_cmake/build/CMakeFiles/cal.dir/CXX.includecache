@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/suraj/cmakelist/my_cmake/02_cmake/addition.h
+
+/mnt/d/suraj/cmakelist/my_cmake/02_cmake/division.h
+
+/mnt/d/suraj/cmakelist/my_cmake/02_cmake/main.cpp
+iostream
+-
+addition.h
+/mnt/d/suraj/cmakelist/my_cmake/02_cmake/addition.h
+division.h
+/mnt/d/suraj/cmakelist/my_cmake/02_cmake/division.h
+print_result.h
+/mnt/d/suraj/cmakelist/my_cmake/02_cmake/print_result.h
+
+/mnt/d/suraj/cmakelist/my_cmake/02_cmake/print_result.h
+

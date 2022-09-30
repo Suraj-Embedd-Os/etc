@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/suraj/cmakelist/Step1/MathFunctions/MathFunctions.h
+
+/mnt/d/suraj/cmakelist/Step1/MathFunctions/mysqrt.cxx
+MathFunctions.h
+/mnt/d/suraj/cmakelist/Step1/MathFunctions/MathFunctions.h
+math.h
+-
+

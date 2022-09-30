@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../App/my_print/include/my_print/print_result.h
+
+/mnt/d/suraj/cmakelist/New folder/App/my_print/src/print_result.cpp
+iostream
+-
+my_print/print_result.h
+/mnt/d/suraj/cmakelist/New folder/App/my_print/src/my_print/print_result.h
+

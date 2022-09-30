@@ -1,0 +1,15 @@
+[ 20%] Building CXX object src/link/CMakeFiles/link.dir/ping360simulationlink.cpp.o
+[ 22%] Built target logger
+[ 22%] Building CXX object src/filemanager/CMakeFiles/filemanager.dir/filemanager_autogen/mocs_compilation.cpp.o
+[ 23%] Building CXX object src/filemanager/CMakeFiles/filemanager.dir/filemanager.cpp.o
+In file included from /home/toad/ping360/ping-viewer/src/link/simulationlink.cpp:1:0:
+/home/toad/ping360/ping-viewer/src/link/simulationlink.h:6:10: fatal error: QRandomGenerator: No such file or directory
+ #include <QRandomGenerator>
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+src/link/CMakeFiles/link.dir/build.make:229: recipe for target 'src/link/CMakeFiles/link.dir/simulationlink.cpp.o' failed
+make[2]: *** [src/link/CMakeFiles/link.dir/simulationlink.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+In file included from /home/toad/ping360/ping-viewer/src/link/ping360simulationlink.h:3:0,
+                 from /home/toad/ping360/ping-viewer/src/link/ping360simulationlink.cpp:6:
+/home/toad/ping360/ping-viewer/src/link/simulationlink.h:6:10: fatal error: QRandomGenerator: No such file or directory

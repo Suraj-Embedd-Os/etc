@@ -1,0 +1,6 @@
+/mnt/d/suraj/cmakelist/Step1/Step1_build/CMakeFiles/rebuild_cache.dir
+/mnt/d/suraj/cmakelist/Step1/Step1_build/CMakeFiles/Tutorial.dir
+/mnt/d/suraj/cmakelist/Step1/Step1_build/CMakeFiles/edit_cache.dir
+/mnt/d/suraj/cmakelist/Step1/Step1_build/MathFunctions/CMakeFiles/rebuild_cache.dir
+/mnt/d/suraj/cmakelist/Step1/Step1_build/MathFunctions/CMakeFiles/MathFunctions.dir
+/mnt/d/suraj/cmakelist/Step1/Step1_build/MathFunctions/CMakeFiles/edit_cache.dir

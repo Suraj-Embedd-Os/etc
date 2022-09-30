@@ -1,0 +1,3 @@
+/mnt/d/suraj/cmakelist/my_cmake/01_cmake/build/CMakeFiles/rebuild_cache.dir
+/mnt/d/suraj/cmakelist/my_cmake/01_cmake/build/CMakeFiles/cal.dir
+/mnt/d/suraj/cmakelist/my_cmake/01_cmake/build/CMakeFiles/edit_cache.dir

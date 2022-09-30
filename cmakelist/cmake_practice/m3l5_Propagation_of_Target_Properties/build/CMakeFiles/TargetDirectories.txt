@@ -1,0 +1,9 @@
+/mnt/d/suraj/cmakelist/cmake_practice/m3l5_Propagation_of_Target_Properties/build/CMakeFiles/rebuild_cache.dir
+/mnt/d/suraj/cmakelist/cmake_practice/m3l5_Propagation_of_Target_Properties/build/CMakeFiles/calculator.dir
+/mnt/d/suraj/cmakelist/cmake_practice/m3l5_Propagation_of_Target_Properties/build/CMakeFiles/edit_cache.dir
+/mnt/d/suraj/cmakelist/cmake_practice/m3l5_Propagation_of_Target_Properties/build/my_math/CMakeFiles/rebuild_cache.dir
+/mnt/d/suraj/cmakelist/cmake_practice/m3l5_Propagation_of_Target_Properties/build/my_math/CMakeFiles/my_math.dir
+/mnt/d/suraj/cmakelist/cmake_practice/m3l5_Propagation_of_Target_Properties/build/my_math/CMakeFiles/edit_cache.dir
+/mnt/d/suraj/cmakelist/cmake_practice/m3l5_Propagation_of_Target_Properties/build/my_print/CMakeFiles/rebuild_cache.dir
+/mnt/d/suraj/cmakelist/cmake_practice/m3l5_Propagation_of_Target_Properties/build/my_print/CMakeFiles/my_print.dir
+/mnt/d/suraj/cmakelist/cmake_practice/m3l5_Propagation_of_Target_Properties/build/my_print/CMakeFiles/edit_cache.dir

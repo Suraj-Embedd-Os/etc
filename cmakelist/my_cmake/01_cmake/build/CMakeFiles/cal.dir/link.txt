@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/cal.dir/main.cpp.o CMakeFiles/cal.dir/addition.cpp.o CMakeFiles/cal.dir/division.cpp.o CMakeFiles/cal.dir/print_result.cpp.o  -o cal 

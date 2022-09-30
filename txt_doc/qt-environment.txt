@@ -1,0 +1,35 @@
+$sudo apt-get install qtchooser
+Step 1: locate your qtchooser configure file in your system.
+
+$ locate qtchooser | grep conf
+
+/usr/lib/x86_64-linux-gnu/qt-default/qtchooser/default.conf
+/usr/lib/x86_64-linux-gnu/qtchooser/4.conf
+/usr/lib/x86_64-linux-gnu/qtchooser/5.conf
+/usr/lib/x86_64-linux-gnu/qtchooser/qt4.conf
+/usr/lib/x86_64-linux-gnu/qtchooser/qt5.conf
+The command result may be different from yours. Those x.conf files represent all of qt versions qtchooser could recognized in your system. Each x.conf file is a symbolic link to a file configured the qt you have installed. Modifying the default.conf could configure the default qt version you expected.
+
+Step 2: Find out the file location the symbolic link file default.conf linked to.
+
+$ls -l /usr/lib/x86_64-linux-gnu/qt-default/qtchooser/default.conf
+lrwxrwxrwx 1 root root 53 x xx xxx /usr/lib/x86_64-linux-gnu/qt-default/qtchooser/default.conf -> ../../../share/qtchooser/qt4-x86_64-lnux-gnu.conf
+Step 3: Create your qt version conf file
+
+The result of step 2 shows the location of all qt version conf file: /usr/share/qtchooser. You just create a conf file specified your qt version in this path. For example, my qt is installed at /opt/Qt5.13.1/ and I want to set this qt version as the default one in my system. We could create a file named like qt5.13.1.conf.
+
+$cd /usr/share/qtchooser
+$sudo vi qt5.13.1.conf
+and fill in the following two lines: first line means the qmake location and another represents the library path.
+
+/opt/Qt5.13.1/5.13.1/gcc_64/bin
+/opt/Qt5.13.1/5.13.1/gcc_64/lib
+Step 4: Set your qt as the default one.
+
+Just modify the default.conf symbolic link to your qt conf file created at step 3.
+
+$cd /usr/lib/x86_64-linux-gnu/qt-default/qtchooser/
+$sudo ln -snf ../../../share/qtchooser/qt5.13.1.conf default.conf
+After complete those steps, the default qt has been configured and you can type following command to test and it should be your qt as the default.
+
+$qmake -v

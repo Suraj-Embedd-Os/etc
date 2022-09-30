@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../my_math/include/my_math/addition.h
+
+../my_math/include/my_math/division.h
+
+../my_print/include/my_print/print_result.h
+
+/mnt/d/suraj/cmakelist/cmake_practice/m3l5_Propagation_of_Target_Properties/main.cpp
+iostream
+-
+my_math/addition.h
+/mnt/d/suraj/cmakelist/cmake_practice/m3l5_Propagation_of_Target_Properties/my_math/addition.h
+my_math/division.h
+/mnt/d/suraj/cmakelist/cmake_practice/m3l5_Propagation_of_Target_Properties/my_math/division.h
+my_print/print_result.h
+/mnt/d/suraj/cmakelist/cmake_practice/m3l5_Propagation_of_Target_Properties/my_print/print_result.h
+

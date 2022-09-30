@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../App/my_math/include/my_math/addition.h
+
+../App/my_math/include/my_math/division.h
+
+/mnt/d/suraj/cmakelist/New folder/App/my_math/src/addition.cpp
+my_math/addition.h
+/mnt/d/suraj/cmakelist/New folder/App/my_math/src/my_math/addition.h
+
+/mnt/d/suraj/cmakelist/New folder/App/my_math/src/division.cpp
+my_math/division.h
+/mnt/d/suraj/cmakelist/New folder/App/my_math/src/my_math/division.h
+
