@@ -1,0 +1,2 @@
+/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/7/CMakeFiles/rebuild_cache.dir
+/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/7/CMakeFiles/edit_cache.dir

@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/1/addition.cpp
+
+/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/1/addition.h
+
+/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/1/division.cpp
+
+/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/1/division.h
+
+/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/1/main.cpp
+iostream
+-
+addition.h
+/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/1/addition.h
+division.h
+/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/1/division.h
+print_result.h
+/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/1/print_result.h
+
+/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/1/print_result.cpp
+iostream
+-
+
+/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/1/print_result.h
+

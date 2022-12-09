@@ -1,0 +1,9 @@
+/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/3/build/CMakeFiles/rebuild_cache.dir
+/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/3/build/CMakeFiles/calculator.dir
+/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/3/build/CMakeFiles/edit_cache.dir
+/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/3/build/math/CMakeFiles/rebuild_cache.dir
+/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/3/build/math/CMakeFiles/my_math.dir
+/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/3/build/math/CMakeFiles/edit_cache.dir
+/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/3/build/print/CMakeFiles/rebuild_cache.dir
+/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/3/build/print/CMakeFiles/my_print.dir
+/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/3/build/print/CMakeFiles/edit_cache.dir

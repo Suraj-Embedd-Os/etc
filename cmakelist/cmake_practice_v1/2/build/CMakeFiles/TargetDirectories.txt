@@ -1,0 +1,5 @@
+/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/2/build/CMakeFiles/calculator.dir
+/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/2/build/CMakeFiles/edit_cache.dir
+/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/2/build/CMakeFiles/my_math.dir
+/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/2/build/CMakeFiles/rebuild_cache.dir
+/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/2/build/CMakeFiles/my_print.dir
