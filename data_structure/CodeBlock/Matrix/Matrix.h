@@ -40,7 +40,68 @@ struct DiagonalMatrix
 
 struct TriangularMatrix
 {
+    int *data;
+    int size;
 
+    void setMatrix(int i,int j,int _data)
+    {
+        if(i>=j)
+            data[(i*(i-1)/2)+j-1]=_data;
+    }
+
+     int getMatrix(int i,int j,int _data)
+    {
+        if(i>=j)
+            return data[(i*(i-1)/2)+j-1];
+    }
+
+    void display()
+    {
+        for(int i=1;i<=size;i++)
+        {
+            for(int j=1;j<=size;j++)
+            {
+                if(i>=j)
+                    std::cout<<data[(i*(i-1)/2)+j-1]<<" ";
+                else
+                    std::cout<<0<<" ";
+            }
+            std::cout<<std::endl;
+        }
+    }
+};
+
+struct SymmetricMatrix
+{
+    int *data;
+    int size;
+
+    void setMatrix(int i,int j,int _data)
+    {
+        if(i>=j)
+            data[(i*(i-1)/2)+j-1]=_data;
+    }
+
+     int getMatrix(int i,int j,int _data)
+    {
+        if(i>=j)
+            return data[(i*(i-1)/2)+j-1];
+    }
+
+    void display()
+    {
+        for(int i=1;i<=size;i++)
+        {
+            for(int j=1;j<=size;j++)
+            {
+                //if(i>=j)
+                    std::cout<<data[(i*(i-1)/2)+j-1]<<" ";
+                //else
+                   // std::cout<<<<" ";
+            }
+            std::cout<<std::endl;
+        }
+    }
 };
 
 /*************************DIAGONAL end  MATRIX *******************/
