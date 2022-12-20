@@ -3,6 +3,11 @@
 #include "math/addition.h"
 #include "math/division.h"
 #include "print/print_result.h"
+#include "var.h"
+
+using namespace std;
+
+
 
 main(){
 
@@ -19,6 +24,8 @@ result_div = division(first_no , second_no);
 print_result("Addition", result_add);
 print_result("Division", result_div);
 std::cout<< "Addition result:\t"<< result_add<< "\nDivision result:\t"<< result_div<< "\n";
+
+validate_output(result_add);
 
 return 0;
 

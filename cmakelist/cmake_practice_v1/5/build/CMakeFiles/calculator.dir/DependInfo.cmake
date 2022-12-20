@@ -12,14 +12,17 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../math"
   "../print"
+  "../var"
   "../math/inc"
   "../print/inc"
+  "../var/print"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/5/build/math/CMakeFiles/my_math.dir/DependInfo.cmake"
   "/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/5/build/print/CMakeFiles/my_print.dir/DependInfo.cmake"
+  "/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/5/build/var/CMakeFiles/var.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

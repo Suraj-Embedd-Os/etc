@@ -149,6 +149,19 @@ my_print/fast:
 	$(MAKE) -f print/CMakeFiles/my_print.dir/build.make print/CMakeFiles/my_print.dir/build
 .PHONY : my_print/fast
 
+#=============================================================================
+# Target rules for targets named var
+
+# Build rule for target.
+var: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 var
+.PHONY : var
+
+# fast build rule for target.
+var/fast:
+	$(MAKE) -f var/CMakeFiles/var.dir/build.make var/CMakeFiles/var.dir/build
+.PHONY : var/fast
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -187,6 +200,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... my_math"
 	@echo "... my_print"
+	@echo "... var"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

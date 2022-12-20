@@ -4,5 +4,6 @@
 CMakeFiles/calculator.dir/main.cpp.o: ../math/inc/math/addition.h
 CMakeFiles/calculator.dir/main.cpp.o: ../math/inc/math/division.h
 CMakeFiles/calculator.dir/main.cpp.o: ../print/inc/print/print_result.h
+CMakeFiles/calculator.dir/main.cpp.o: ../var/var.h
 CMakeFiles/calculator.dir/main.cpp.o: ../main.cpp
 

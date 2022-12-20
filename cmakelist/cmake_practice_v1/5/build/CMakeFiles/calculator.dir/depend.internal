@@ -5,4 +5,5 @@ CMakeFiles/calculator.dir/main.cpp.o
  ../math/inc/math/addition.h
  ../math/inc/math/division.h
  ../print/inc/print/print_result.h
+ ../var/var.h
  /mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/5/main.cpp

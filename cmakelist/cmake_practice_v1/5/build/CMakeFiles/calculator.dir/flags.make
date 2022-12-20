@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/5/math -I/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/5/print -I/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/5/math/inc -I/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/5/print/inc 
+CXX_INCLUDES = -I/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/5/math -I/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/5/print -I/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/5/var -I/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/5/math/inc -I/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/5/print/inc -I/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/5/var/print 
 
