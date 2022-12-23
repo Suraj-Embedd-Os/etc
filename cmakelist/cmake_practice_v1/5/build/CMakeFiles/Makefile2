@@ -63,8 +63,9 @@ CMAKE_BINARY_DIR = /mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/5/build
 # Target rules for target CMakeFiles/calculator.dir
 
 # All Build rule for target.
-CMakeFiles/calculator.dir/all: print/CMakeFiles/my_print.dir/all
 CMakeFiles/calculator.dir/all: math/CMakeFiles/my_math.dir/all
+CMakeFiles/calculator.dir/all: print/CMakeFiles/my_print.dir/all
+CMakeFiles/calculator.dir/all: var/CMakeFiles/var.dir/all
 	$(MAKE) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/depend
 	$(MAKE) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/5/build/CMakeFiles --progress-num=1,2 "Built target calculator"
@@ -77,7 +78,7 @@ all: CMakeFiles/calculator.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/calculator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/5/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/5/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/calculator.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/5/build/CMakeFiles 0
 .PHONY : CMakeFiles/calculator.dir/rule
@@ -204,6 +205,61 @@ print/CMakeFiles/my_print.dir/clean:
 
 # clean rule for target.
 clean: print/CMakeFiles/my_print.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory var
+
+# Convenience name for "all" pass in the directory.
+var/all: var/CMakeFiles/var.dir/all
+
+.PHONY : var/all
+
+# Convenience name for "clean" pass in the directory.
+var/clean: var/CMakeFiles/var.dir/clean
+
+.PHONY : var/clean
+
+# Convenience name for "preinstall" pass in the directory.
+var/preinstall:
+
+.PHONY : var/preinstall
+
+#=============================================================================
+# Target rules for target var/CMakeFiles/var.dir
+
+# All Build rule for target.
+var/CMakeFiles/var.dir/all: print/CMakeFiles/my_print.dir/all
+	$(MAKE) -f var/CMakeFiles/var.dir/build.make var/CMakeFiles/var.dir/depend
+	$(MAKE) -f var/CMakeFiles/var.dir/build.make var/CMakeFiles/var.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/5/build/CMakeFiles --progress-num=8,9 "Built target var"
+.PHONY : var/CMakeFiles/var.dir/all
+
+# Include target in all.
+all: var/CMakeFiles/var.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+var/CMakeFiles/var.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/5/build/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 var/CMakeFiles/var.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/5/build/CMakeFiles 0
+.PHONY : var/CMakeFiles/var.dir/rule
+
+# Convenience name for target.
+var: var/CMakeFiles/var.dir/rule
+
+.PHONY : var
+
+# clean rule for target.
+var/CMakeFiles/var.dir/clean:
+	$(MAKE) -f var/CMakeFiles/var.dir/build.make var/CMakeFiles/var.dir/clean
+.PHONY : var/CMakeFiles/var.dir/clean
+
+# clean rule for target.
+clean: var/CMakeFiles/var.dir/clean
 
 .PHONY : clean
 

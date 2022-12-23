@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../print/inc/print/print_result.h
+
+../var/inc/var/var.h
+
+/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/5.5/var/src/var.cpp
+iostream
+-
+print/print_result.h
+/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/5.5/var/src/print/print_result.h
+var/var.h
+/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/5.5/var/src/var/var.h
+

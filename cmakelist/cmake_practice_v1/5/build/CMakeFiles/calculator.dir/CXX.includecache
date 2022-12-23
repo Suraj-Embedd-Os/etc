@@ -12,6 +12,8 @@
 
 ../print/inc/print/print_result.h
 
+../var/var.h
+
 /mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/5/main.cpp
 iostream
 -
@@ -21,4 +23,6 @@ math/division.h
 /mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/5/math/division.h
 print/print_result.h
 /mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/5/print/print_result.h
+var.h
+/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/5/var.h
 

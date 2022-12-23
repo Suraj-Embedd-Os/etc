@@ -41,6 +41,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/5/build/math/cmake_install.cmake")
   include("/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/5/build/print/cmake_install.cmake")
+  include("/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/5/build/var/cmake_install.cmake")
 
 endif()
 

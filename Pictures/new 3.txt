@@ -1,0 +1,4 @@
+=ROUND( ( GOOGLEFINANCE("GOOG","price") / index(GOOGLEFINANCE("GOOG","price", datevalue(today()-365) ) , 2,2) - 1 ) * 100 ,2)
+
+=GOOGLEFINANCE("GOOG","price") / index(GOOGLEFINANCE("GOOG","price", date(year(today())-1,month(today()),day(today()))) , 2,2) - 1
+ 

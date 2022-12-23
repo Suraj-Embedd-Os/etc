@@ -92,6 +92,8 @@ calculator: CMakeFiles/calculator.dir/main.cpp.o
 calculator: CMakeFiles/calculator.dir/build.make
 calculator: math/libmy_math.a
 calculator: print/libmy_print.a
+calculator: var/libvar.a
+calculator: print/libmy_print.a
 calculator: CMakeFiles/calculator.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/suraj/etc/etc/cmakelist/cmake_practice_v1/5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable calculator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calculator.dir/link.txt --verbose=$(VERBOSE)
