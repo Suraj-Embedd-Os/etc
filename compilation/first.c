@@ -1,8 +1,10 @@
+
+
 #include<stdio.h>
 
-
-void test1()
+int main()
 {
 	
-		printf("test1()\n");
+	printf("Hello world\n");
+	return 0;
 }
