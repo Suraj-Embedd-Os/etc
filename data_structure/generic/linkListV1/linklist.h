@@ -42,19 +42,14 @@ class LinkList
 	    std::cout<<std::endl;
 	}
 	
+	//sorting linklist
+	void insertionSortList();
+	void bubleSortList();
+	
 	
 };
 
-template<class T>
-class sortList:public LinkList<T>
-{
-	public:
-	void sortList1();
-	void sortList2();
-	void sortList3();
-	void mergeList(LinkList<T> *l1);
-	
-};
+
 
 
 /***************************************************************/
@@ -211,33 +206,6 @@ void LinkList<T>::deleteAt(int pos)
     }
 }
 
-/***************************************************************/
 
-template<class T>
-void sortList<T>::sortList1()
-{
-    
-}
-
-template<class T>
-void sortList<T>::sortList2()
-{
-    
-}
-
-template<class T>
-void sortList<T>::sortList3()
-{
-    
-}
-
-template<class T>
-void sortList<T>::mergeList(LinkList<T> *l1)
-{
-    
-}
-
-
-/**************************************************************/
 
 #endif
