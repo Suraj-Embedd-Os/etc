@@ -1,8 +1,8 @@
 # depslib dependency file v1.0
-1671513938 source:e:\etc\data_structure\codeblock\matrix\main.cpp
+1671600983 source:e:\etc\data_structure\codeblock\matrix\main.cpp
 	<iostream>
 	"Matrix.h"
 
-1671598534 e:\etc\data_structure\codeblock\matrix\matrix.h
+1671600782 e:\etc\data_structure\codeblock\matrix\matrix.h
 	<iostream>
 
