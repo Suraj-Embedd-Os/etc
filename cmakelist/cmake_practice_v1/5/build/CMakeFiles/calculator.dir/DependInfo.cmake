@@ -15,7 +15,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../var"
   "../math/inc"
   "../print/inc"
-  "../var/print"
   )
 
 # Targets to which this target links.

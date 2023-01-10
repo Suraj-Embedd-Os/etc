@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/stack_example1.dir/main.c.o  -o stack_example1 list/libmy_list.a stack/libmy_stack.a queue/libmy_queue.a list/libmy_list.a 

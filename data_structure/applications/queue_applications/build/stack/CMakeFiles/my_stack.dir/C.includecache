@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../list/inc/list/linkList.h
+stdbool.h
+-
+
+../stack/inc/stack/stack.h
+list/linkList.h
+../stack/inc/stack/list/linkList.h
+
+/mnt/d/suraj/etc/etc/data_structure/applications/queue_applications/stack/src/stack.c
+stdio.h
+-
+stdlib.h
+-
+stack/stack.h
+/mnt/d/suraj/etc/etc/data_structure/applications/queue_applications/stack/src/stack/stack.h
+list/linkList.h
+/mnt/d/suraj/etc/etc/data_structure/applications/queue_applications/stack/src/list/linkList.h
+
