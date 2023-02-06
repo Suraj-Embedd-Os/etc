@@ -2,6 +2,21 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+/*
+	rotate array left or right by kth term;
+	
+	right kth term:
+				.revers(0,last)
+				.revers(0,k-1)
+				.revers(k,last)
+	left  kth term:
+				.revers(0,last)
+				.revers(0,last-k-1)
+				.revers(last-k,last)
+	
+
+*/
+
 
 void revers(int *nums,int start,int end)
 {

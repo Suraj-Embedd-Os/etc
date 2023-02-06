@@ -1,3 +1,7 @@
+/*
+	rev=rev*10+n%10;
+*/
+
 int reverse(int x) 
 {
     int rev = 0;
