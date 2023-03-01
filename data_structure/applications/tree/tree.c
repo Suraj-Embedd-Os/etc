@@ -1,24 +1,46 @@
 
 #include <stdio.h>
+#include<limits.h>
 #include "queue.h"
 
 struct Node *root=NULL;
 void createTree( struct Queue **Q1_ptr);
 
-void createTreeFromArray(struct Queue **Q1_ptr,int *arr,int num);
+
+void createTreeFromArray(int *arr,int num);
 void inOrdeTraversal(struct Node *node);
 void preOrderTraversal(struct Node *node);
 void postOrderTraversal(struct Node *node);
 
+int sumofAllNode(struct Node *node);
+int maxElementInTree(struct Node *node);
+int minElementInTree(struct Node *node);
+int noOfNodeInTree(struct Node *node);
+
+
+int max(int a,int b)
+{
+    return (a>b?a:b);
+}
+int min(int a,int b)
+{
+    return (a<b?a:b);
+}
+
 
 int main()
 {
-    struct Queue *Q1=NULL;
-   initialisedQueue(&Q1,50);
-   
-    createTree(&Q1);
+    int arr[]={1,2,3,4,5,6,7,8,9,10};
+    //struct Queue *Q1=NULL;
+   // initialisedQueue(&Q1,50);
+   createTreeFromArray(arr,sizeof(arr)/sizeof(int));
+    //createTree(&Q1);
     
-    inOrdeTraversal(root);
+    preOrderTraversal(root);
+    
+    printf("\n%d ",sumofAllNode(root));
+    
+    printf("\n%d ",noOfNodeInTree(root));
     
     
 
@@ -99,28 +121,76 @@ void createTree( struct Queue **Q1_ptr)
    
 }
 
-void createTreeFromArray(struct Queue **Q1_ptr,int *arr,int num)
+void createTreeFromArray(int *arr,int num)
 {
     
-    struct Node *root =(struct Node *)malloc(1*sizeof(struct Node));
+    root =(struct Node *)malloc(1*sizeof(struct Node));
     
-     struct Node *t=NULL,*p=NULL;
+    struct Node *t=NULL,*p=NULL;
     
     root->data=arr[0];
     root->lchild=root->rchild=NULL;
     printf("root node %d \n",root->data);
     
-    enQueue(Q1_ptr,root);
+	for(int i=1;i<num;i++)
+	{
+		struct Node *temp=root;
+		struct Node *prev=NULL;
+		
+		struct Node *new_node=(struct Node*)malloc(1*sizeof(struct Node));
+		new_node->data=arr[i];
+		new_node->lchild=new_node->rchild=NULL;
+		
+		
+		while(temp!=NULL)
+		{
+			prev=temp;
+			if(temp->data >arr[i])
+				temp=temp->lchild;
+			else
+				temp=temp->rchild;
+				
+			
+		}
+		
+		if(prev->data>arr[i])
+			prev->lchild=new_node;
+		else
+			prev->rchild=new_node;
+		
+	}
     
-        while(!isEmptyQueue(Q1_ptr))
-        {
-             p=deQueue(Q1_ptr);
-             
-             printf("lchild of %d \n",p->data);
-             
-             if(arr[1])
-        }
     
-
 }
 
+int sumofAllNode(struct Node *node)
+{
+   if(node==NULL)
+   return 0;
+   else
+   return (node->data +sumofAllNode(node->lchild)+sumofAllNode(node->rchild));
+}
+
+int maxElementInTree(struct Node *node)
+{
+    if(node==NULL)
+    return INT_MIN;
+    else
+    return max(node->data,max(maxElementInTree(node->lchild),maxElementInTree(node->rchild)));
+}
+
+int minElementInTree(struct Node *node)
+{
+     if(node==NULL)
+    return INT_MAX;
+    else
+    return min(node->data,min(minElementInTree(node->lchild),minElementInTree(node->rchild)));
+}
+
+int noOfNodeInTree(struct Node *node)
+{
+    if(node==NULL)
+    return 0;
+    return 1+noOfNodeInTree(node->lchild)+noOfNodeInTree(node->rchild);
+    
+}
