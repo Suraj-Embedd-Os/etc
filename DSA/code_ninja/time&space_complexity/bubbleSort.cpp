@@ -5,6 +5,7 @@
 
 
 #include<iostream>
+#include<cstdio>
 #include "getTime.h"
 
 using namespace std;
@@ -19,18 +20,17 @@ void swap(int *x,int *y)
 
 
 
-void selectionSort(int *arr,int start,int end)
+void bubbleSort(int *arr,int start,int end)
 {
-	for(int i=start;i<=end-1;i++)
+	for(int i=start;i<=end;i++)
 	{
-		int min_index=i;
-		for(int j=i+1;j<=end;j++)
+		for(int j=i+1;j<=end-i;j++)
 		{
 			if(arr[i]>arr[j])
-				min_index=j;
+			{
+				swap(&arr[i],&arr[j]);
+			}
 		}
-		if(min_index !=i)
-		swap(&arr[min_index],&arr[i]);
 	}
 	
 }
@@ -49,10 +49,12 @@ int main()
 		}
 		
 		startTim=getTimeInusec();
-		selectionSort(arr,0,n-1);
+		bubbleSort(arr,0,n-1);
 		endTime=getTimeInusec();
 		
-		cout<<"selectionSort n = "<<n<<" time in usec "<<endTime-startTim<<endl;
+		//cout<<"selectionSort n = "<<n<<" time in usec "<<endTime-startTim<<endl;
+		
+		printf("selectionSort n =%d time in usec %lld \n",n,endTime-startTim);
 		
 	}
 

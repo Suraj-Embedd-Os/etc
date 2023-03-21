@@ -6,7 +6,7 @@
 #include "getTime.h"
 
 
- long getTimeInusec()
+  long long getTimeInusec()
 {
 	struct timeval current_time;
 	gettimeofday(&current_time, NULL);

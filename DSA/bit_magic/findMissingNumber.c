@@ -3,9 +3,9 @@
 #include<string.h>
 #include<math.h>
 
+int findMissingNumber(const int *,int ,int );
 
-
-int findMissingNumber(int *arr,int arr_size,int range)
+int findMissingNumber(const int arr*,int arr_size,int range)
 {
     int num=0;
     for(int i=0;i<arr_size;i++)
