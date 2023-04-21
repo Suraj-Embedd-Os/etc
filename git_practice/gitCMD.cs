@@ -102,7 +102,11 @@ git stash
 git stash list 			#List works in progress that you’ve stashed away.
 
 //Apply the most recently saved stash to the current working directory; remove it from the stash
-git stash pop 			
+git stash pop 	
+
+// Delete remote brach
+git push origin --delete manish
+		
 
 **********************************************chapter 10 Merging***********************************************************
 
@@ -143,5 +147,6 @@ git ls-tree HEAD 						#Display all the files for HEAD (the current branch).
 
 **********************************************chapter 12 colabrating with remote***********************************************************
 
+git push -u origin manish
 
 
