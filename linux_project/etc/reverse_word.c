@@ -30,11 +30,11 @@ void reverse_sentence(char *str)
     {
         temp++;
         if(*temp=='\0')
-        reverse_word(begin,temp-1);
+			reverse_word(begin,temp-1);
         else if(*temp==' ')
         {
-        reverse_word(begin,temp-1);
-        begin=temp+1;
+			reverse_word(begin,temp-1);
+			begin=temp+1;
         }
     }
     reverse_word(str,temp-1);
@@ -44,8 +44,6 @@ int main()
 {
     char str[]="i love programming very much";
     
-    
-  
     reverse_sentence(str);
     
     printf("%s ",str);
