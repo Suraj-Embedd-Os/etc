@@ -1,2 +1,0 @@
-/mnt/d/suraj/cmakelist/my_cmake/variable/CMakeFiles/rebuild_cache.dir
-/mnt/d/suraj/cmakelist/my_cmake/variable/CMakeFiles/edit_cache.dir

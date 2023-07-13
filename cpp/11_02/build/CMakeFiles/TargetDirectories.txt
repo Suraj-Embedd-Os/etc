@@ -1,3 +1,0 @@
-/mnt/d/suraj/etc/etc/cpp/11_02/build/CMakeFiles/rebuild_cache.dir
-/mnt/d/suraj/etc/etc/cpp/11_02/build/CMakeFiles/example2.dir
-/mnt/d/suraj/etc/etc/cpp/11_02/build/CMakeFiles/edit_cache.dir

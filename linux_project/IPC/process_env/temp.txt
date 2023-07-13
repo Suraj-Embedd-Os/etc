@@ -1,1 +1,0 @@
-Remove the private function readCommand() from the main EasyNextionLibrary.cpp file. A new file is created named readCustomCommands.cpp, in order to make easier the modifications for it when using the custom protocol.

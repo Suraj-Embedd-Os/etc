@@ -1,2 +1,0 @@
-/usr/bin/ar qc libvar.a  CMakeFiles/var.dir/var.cpp.o
-/usr/bin/ranlib libvar.a

@@ -1,5 +1,0 @@
-Ubuntu Terminal commands
-sudo apt-get update
-sudo apt-get install -y build-essential linux-headers-$(uname -r)
-sudo apt-get install virtualbox-guest-utils
-sudo adduser $(whoami) vboxsf

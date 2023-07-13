@@ -1,9 +1,0 @@
-Count: 2301952	Distance: 221662.64ft	Time: 0.00sec	Speed: infft/sec 
-Count: 2301952	Distance: 221662.64ft	Time: 0.00sec	Speed: infft/sec 
-Count: 2301952	Distance: 221662.64ft	Time: 2.00sec	Speed: 110831.32ft/sec 
-Count: 2301952	Distance: 221662.64ft	Time: 3.00sec	Speed: 73887.55ft/sec 
-Count: 2301952	Distance: 221662.64ft	Time: 3.00sec	Speed: 73887.55ft/sec 
-Count: 2301952	Distance: 221662.64ft	Time: 3.00sec	Speed: 73887.55ft/sec 
-Count: 2301952	Distance: 221662.64ft	Time: 4.00sec	Speed: 55415.66ft/sec 
-Count: 2301952	Distance: 221662.64ft	Time: 6.00sec	Speed: 36943.77ft/sec 
-Count: 0	Distance: 0.00ft	Time: 213.00sec	Speed: 0.00ft/sec 
