@@ -5,9 +5,16 @@
 
 #include "stack.h"
 
-#define Q_ONE 1
+enum
+{
+	ARRAY,
+	LINKLIST,
+	CIRCULAR_LIST
+};
 
-#if Q_ONE == 1
+#define Q_IMPLEMENTATION 1
+
+#if Q_IMPLEMENTATION == ARRAY
 /*******************************************************************************************/
 typedef struct 
 {
@@ -66,7 +73,7 @@ void remove_queue(queue_t **Q)
     free(*Q);
 }
 /*******************************************************************************************/
-#elif Q_ONE == 2
+#elif Q_IMPLEMENTATION == LINKLIST
 /*******************************************************************************************/
 
 typedef struct qq_t
@@ -82,7 +89,7 @@ typedef struct
 }queue_t;
 
 
-queue_t *queue_create(int size)
+queue_t *queue_create()
 {
    queue_t *Q=(queue_t*)calloc(1,sizeof(queue_t));
    
@@ -107,9 +114,7 @@ void enqueue(queue_t **Q,itme_t x)
     new_q->next =NULL;
     if((*Q)->insert == NULL)
     {
-        (*Q)->insert->next =new_q;
-        (*Q)->insert-=new_q;
-        (*Q)->remove=new_q;
+        (*Q)->insert=(*Q)->remove=new_q;
     }
     else
     {
@@ -120,15 +125,42 @@ void enqueue(queue_t **Q,itme_t x)
 
 itme_t dequeue(queue_t **Q)
 {
+    if(!is_empty_queue(Q))
+    {
+        qu_node_t *temp= (*Q)->insert;
+        
+        (*Q)->insert=(*Q)->insert->next;
+        
+        itme_t t = temp->item;
+        
+        free(temp);
+        
+        return t;
     
+    }
+    return -1;
 }
 
 void remove_queue(queue_t **Q)
 {
-    free((*Q)->base);
-    free(*Q);
+   qu_node_t *temp= (*Q)->insert;
+   
+   while(temp !=NULL)
+   {
+       qu_node_t *temp1=temp;
+       temp=temp->next;
+       free(temp1);
+   }
+   (*Q)->insert=(*Q)->remove=NULL;
 }
+/*******************************************************************************************/
+#elif Q_IMPLEMENTATION == CIRCULAR_LIST
 
+typedef struct  qu_t
+{
+	itme_t item;
+	struct  qu_t *next;
+}
 
 /*******************************************************************************************/
 #else
